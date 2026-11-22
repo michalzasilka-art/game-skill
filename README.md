@@ -29,17 +29,7 @@ Then ask Claude Code something like *"make me a game where a fox races go-karts"
 
 ## How it works
 
-```mermaid
-flowchart TD
-    A[You: make a game] --> B{Round 1<br/>2D or 3D?<br/>Final version or prototype?}
-    B -->|2D| C[Round 2 – 2D<br/>Image tool · Art style · Engine]
-    B -->|3D| D[Round 2 – 3D<br/>Max triangles · Blender MCP or code<br/>Lighting · Image tool]
-    C --> E[Plan: every step in the task list]
-    D --> E
-    E --> F[Step 1] --> G[Step 2] --> H[Step N]
-    H --> T[Test everything once<br/>phone 390×844 + 1280×720]
-    T --> P[Publish once<br/>deploy · tag · changelog]
-```
+<p align="center"><img src="images/how-it-works.svg" alt="How the skill works: round 1 questions, round 2 for 2D or 3D, each step done alone, test everything once, publish once" width="100%"></p>
 
 ## The questions it asks
 
